@@ -18,7 +18,10 @@ helloWorld('Hello, World!')
 */
 
 //CODE HERE
-
+function printName (name) {
+  console.log(name)
+}
+printName('Cameron')
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -32,7 +35,10 @@ helloWorld('Hello, World!')
 */
 
 //CODE HERE
-
+function greeting (name){
+  console.log("Hello,", name)
+  }
+  greeting('Jake')
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -43,7 +49,13 @@ helloWorld('Hello, World!')
 */
 
 //CODE HERE
+function add(num1, num2){
+  return Number(num1) + Number(num2)
+// console.log(num1 + num2)
+}
 
+let sum = add(2,3)
+console.log(sum)
 
 ////////////////// PROBLEM 5 ////////////////////
 /*
@@ -55,7 +67,20 @@ helloWorld('Hello, World!')
 */
 
 //CODE HERE
+function nameCheck(name) {
+  if(name === 'Steven'){
+    return 'What is up Steven' 
+  }
+  else if(name === 'Bryan'){
+    return 'Hey Bryan!'
+  }
+  else{
+    return `Cool name ${Billie}`
+  }
 
+}
+let nameGreeting = nameCheck('Bryan')
+  console.log(nameGreeting)
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
